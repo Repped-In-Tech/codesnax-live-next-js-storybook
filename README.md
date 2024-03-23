@@ -34,6 +34,9 @@ _NOTE: Always remember to stop your server when you're done using CTRL+C on Mac 
 5. Navigate to your account and select the repo with the Storybook
 6. Let's update a few settings...
   - Update Build Command: `npm run build-storybook`
-  - Change the Publish Directory: 
+  - Change the Publish Directory: `storybook-static`
+7. Press "Deploy Site" and wait... (you can watch the logs if you like)
+8. Change the default name of the site if you'd like.
+9. Navigate to the URL!
 
 
