@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+// CONFIG DEFAULT: https://github.com/tailwindlabs/tailwindcss/blob/master/stubs/config.full.js
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",

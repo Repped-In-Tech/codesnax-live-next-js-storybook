@@ -34,7 +34,7 @@ export default function Navigation() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <Link key={item.name} href={item.href} className="ttext-sm font-semibold leading-6 text-white">
+            <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-pink">
               {item.name}
             </Link>
           ))}
