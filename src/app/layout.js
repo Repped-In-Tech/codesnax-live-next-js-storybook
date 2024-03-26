@@ -1,7 +1,6 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
+import Navigation from "@/app/components/Navigation";
 
-const inter = Inter({ subsets: ["latin"] });
+import "./globals.css";
 
 export const metadata = {
   title: "Showing NextJS on CodeSnax",
@@ -11,7 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <Navigation />
+        {children}
+      </body>
     </html>
   );
 }
